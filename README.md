@@ -1,6 +1,16 @@
 # Testaus tehtävät
 ![Tehtävä 1](src/img/sakari-asennustesti.png)
 
+![Tehtävä 2](src/img/tehtava2testaus.png)
+Tehtävä 2 missä tehtiin robot testaus joka testasi login formia.
+
+![Tehtävä 5](src/img/tehtava5testaus.png)
+Kirjautumistesti, joka käyttää ’.env’-tiedostoon piilotettuja
+käyttäjätunnusta ja salasanaa.
+
+![Tehtävä 6](src/img/tehtava6testaus.png)
+Kirjautumistesti, missä sekä salasana että käyttäjätunnus on
+kryptattu käyttäen CryptoLibrarya.
 
 # Sovelluksen nimi
 
