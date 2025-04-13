@@ -52,3 +52,6 @@
 {"level":30,"time":"2025-04-13T19:09:10.650Z","pid":8496,"hostname":"DESKTOP-9S37B6N","msg":"Start of node method click"}
 {"level":30,"time":"2025-04-13T19:09:10.651Z","pid":8496,"hostname":"DESKTOP-9S37B6N","msg":"Strict mode is enabled, find Locator with button[type=\"submit\"] in page."}
 {"level":30,"time":"2025-04-13T19:09:10.687Z","pid":8496,"hostname":"DESKTOP-9S37B6N","msg":"End of node method click"}
+{"level":30,"time":"2025-04-13T19:09:14.881Z","pid":8496,"hostname":"DESKTOP-9S37B6N","msg":"Removed page=89b88365-dd8d-4b44-a52e-52a888955e83 from context=bf0db987-8333-4a17-b147-48aa2cbcc457 page stack"}
+{"level":30,"time":"2025-04-13T19:09:14.887Z","pid":8496,"hostname":"DESKTOP-9S37B6N","msg":"Removed page=4b723147-73eb-4d96-88d3-f4a94b64a6ef from context=bf0db987-8333-4a17-b147-48aa2cbcc457 page stack"}
+{"level":30,"time":"2025-04-13T19:09:14.891Z","pid":8496,"hostname":"DESKTOP-9S37B6N","msg":"Removed page=bd87e18b-607a-4b2e-84fe-3e5908c67787 from context=bf0db987-8333-4a17-b147-48aa2cbcc457 page stack"}

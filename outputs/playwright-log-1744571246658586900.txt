@@ -43,3 +43,6 @@
 {"level":30,"time":"2025-04-13T19:07:34.742Z","pid":3612,"hostname":"DESKTOP-9S37B6N","msg":"Start of node method click"}
 {"level":30,"time":"2025-04-13T19:07:34.742Z","pid":3612,"hostname":"DESKTOP-9S37B6N","msg":"Strict mode is enabled, find Locator with button[type=\"submit\"] in page."}
 {"level":30,"time":"2025-04-13T19:07:34.772Z","pid":3612,"hostname":"DESKTOP-9S37B6N","msg":"End of node method click"}
+{"level":30,"time":"2025-04-13T19:13:15.412Z","pid":3612,"hostname":"DESKTOP-9S37B6N","msg":"Removed page=71ed9628-8136-4041-86ae-51478847e2a7 from context=4f8f2bba-dfd1-495f-b3e2-a916bcb7d095 page stack"}
+{"level":30,"time":"2025-04-13T19:13:15.414Z","pid":3612,"hostname":"DESKTOP-9S37B6N","msg":"Removed page=3d925adb-a5d3-4327-8e1b-569c156d6443 from context=4f8f2bba-dfd1-495f-b3e2-a916bcb7d095 page stack"}
+{"level":30,"time":"2025-04-13T19:13:15.418Z","pid":3612,"hostname":"DESKTOP-9S37B6N","msg":"Removed page=98ea8b37-14ac-4abb-8223-d5edec28b0ca from context=4f8f2bba-dfd1-495f-b3e2-a916bcb7d095 page stack"}
