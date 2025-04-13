@@ -1,6 +1,6 @@
 *** Settings ***
 Library     Browser    auto_closing_level=KEEP
-Variables   test/front/load_env.py
+Variables   front/load_env.py
 
 *** Test Cases ***
 Test Web Form

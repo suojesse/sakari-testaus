@@ -28,9 +28,3 @@ keywords.robot
 .env
 private_key.json
 password_hash.json
-
-playwright-log-*.txt
-report.html
-*.xml
-requirements.txt
-log.html

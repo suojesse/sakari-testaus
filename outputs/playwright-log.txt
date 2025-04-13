@@ -1,0 +1,102 @@
+{"level":30,"time":"2025-04-13T19:04:34.358Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Listening on 50028"}
+(node:10388) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-13T19:04:34.991Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-13T19:04:39.857Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-13T19:04:39.859Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-13T19:04:39.858Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-13T19:04:39.872Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-13T19:04:39.873Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-13T19:04:39.897Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Changed active context"}
+{"level":30,"time":"2025-04-13T19:04:40.124Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-13T19:04:40.127Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Changed active page"}
+{"level":30,"time":"2025-04-13T19:04:43.607Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5173/
+Call log:
+[2m  - navigating to "http://localhost:5173/", waiting until "load"[22m
+
+    at newPage (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:12567:18)
+    at async PlaywrightServer.newPage (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-04-13T19:04:43.751Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:10725:11)
+    at takeScreenshot (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:13132:34)
+    at Object.onReceiveHalfClose (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-13T19:04:43.752Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-04-13T19:04:43.999Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-04-13T19:04:44.000Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-04-13T19:04:44.009Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-13T19:04:44.009Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-13T19:04:44.126Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-13T19:04:44.126Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Changed active page"}
+{"level":30,"time":"2025-04-13T19:04:46.488Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5173/
+Call log:
+[2m  - navigating to "http://localhost:5173/", waiting until "load"[22m
+
+    at newPage (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:12567:18)
+    at async PlaywrightServer.newPage (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-04-13T19:04:46.560Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:10725:11)
+    at takeScreenshot (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:13132:34)
+    at Object.onReceiveHalfClose (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-13T19:04:46.560Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-04-13T19:04:47.724Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-04-13T19:04:47.724Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-04-13T19:04:47.727Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-13T19:04:47.728Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-13T19:04:47.813Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-13T19:04:47.813Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Changed active page"}
+{"level":30,"time":"2025-04-13T19:04:50.183Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5173/
+Call log:
+[2m  - navigating to "http://localhost:5173/", waiting until "load"[22m
+
+    at newPage (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:12567:18)
+    at async PlaywrightServer.newPage (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-04-13T19:04:50.263Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:10725:11)
+    at takeScreenshot (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\index.js:13132:34)
+    at Object.onReceiveHalfClose (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\OMISTAJA\Documents\web-kehitys\vite\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-13T19:04:50.264Z","pid":10388,"hostname":"DESKTOP-9S37B6N","msg":"Error of node method  takeScreenshot"}
