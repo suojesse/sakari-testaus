@@ -22,3 +22,9 @@ kryptattu käyttäen CryptoLibrarya.
 
 ## Tehtävä 7
 Outputs kansio tehty.
+
+## Tehtävä 8
+Github.io sivusto tehty.
+
+## Tehtävä 10
+Testaus tehtävien dokumentointi tehty.
