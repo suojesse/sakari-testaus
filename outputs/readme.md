@@ -1,4 +1,4 @@
 # Outputs
 
-- [report.html](/outputs/report.html)
-- [log.html](/outputs/log.html)
+- [report.html](/report.html)
+- [log.html](/log.html)
