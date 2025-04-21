@@ -1,3 +1,8 @@
+# Testaus tehtävä
+
+- [test.md](/test/tests.md)
+- [readme.md](/outputs/readme.md)
+
 
 # Sovelluksen nimi
 
